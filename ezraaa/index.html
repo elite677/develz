@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Develz Hub | Digital Transformation for Nigerian Businesses</title>
+  <meta name="description" content="Transform your local business into a powerful digital brand with web development, UI/UX, SEO, digital marketing, workflow automation, custom software & cloud solutions in Nigeria."/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root {
+      --primary: #f97316;
+      --secondary: #ea580c;
+      --dark: #0b1120;
+      --darker: #06090f;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--dark);
+      color: #e2e8f0;
+    }
+    h1, h2, h3, h4, .accent-text {
+      color: var(--primary);
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, var(--primary), var(--secondary), #fb923c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glass {
+      background: rgba(11,17,32,0.82);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(249,115,22,0.28);
+    }
+    .card {
+      background: rgba(30,41,59,0.65);
+      border: 1px solid rgba(249,115,22,0.25);
+    }
+    .card:hover {
+      border-color: rgba(249,115,22,0.6);
+      transform: translateY(-8px);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="fixed top-0 left-0 right-0 z-50 glass">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6 py-5 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-3.5">
+      <!-- ← Replace with YOUR REAL glowing logo URL -->
+      <span class="text-2xl md:text-2.1xl font-black gradient-text">Develz Hub</span>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-9 font-medium text-gray-300">
+      <a href="#services" class="hover:text-[var(--primary)] transition">Services</a>
+      <a href="#portfolio" class="hover:text-[var(--primary)] transition">Portfolio</a>
+      <a href="#team" class="hover:text-[var(--primary)] transition">Team</a>
+      <a href="#blog" class="hover:text-[var(--primary)] transition">Blog</a>
+    </nav>
+
+    <a href="https://wa.me/2349030749246" target="_blank" class="bg-[var(--primary)] hover:bg-[var(--secondary)] px-7 py-3 rounded-xl font-semibold text-white flex items-center gap-2.5 shadow-lg shadow-orange-600/25 transition">
+      <i class="fab fa-whatsapp text-xl"></i> Chat
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="pt-32 pb-28 min-h-screen flex items-center bg-gradient-to-b from-[var(--darker)] via-[var(--dark)] to-[var(--darker)]">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6">
+    <div class="max-w-4xl" data-aos="fade-up">
+      <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight gradient-text mb-8">
+        Local Businesses.<br/>Going Digital.
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
+        We help Nigerian businesses thrive online with powerful websites, smart automation, real marketing results and modern cloud solutions.
+      </p>
+      <a href="https://wa.me/2349030749246" target="_blank" class="inline-flex items-center gap-3 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] px-10 py-6 rounded-2xl font-bold text-lg shadow-2xl shadow-orange-600/40 hover:shadow-orange-600/60 hover:scale-[1.03] transition-all duration-300">
+        <i class="fab fa-whatsapp text-2xl"></i> Start Your Digital Transformation
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (all 8) -->
+<section id="services" class="py-24">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6">
+    <h2 class="text-5xl sm:text-6xl font-bold gradient-text text-center mb-20" data-aos="fade-up">Our Core Services</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- 1 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-file-alt"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">Paper to Paperless Solutions</h3><p class="text-gray-400">Digitize documents, streamline processes & eliminate paperwork forever.</p></div>
+      <!-- 2 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="80"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-laptop-code"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">Web Design & Development</h3><p class="text-gray-400">Fast, modern, responsive websites & web applications that convert.</p></div>
+      <!-- 3 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="160"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-database"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">Data Management</h3><p class="text-gray-400">Organize, secure & turn your business data into real value.</p></div>
+      <!-- 4 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="240"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-chart-line"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">SEO & Digital Marketing</h3><p class="text-gray-400">Get found online & attract real customers with proven strategies.</p></div>
+      <!-- 5 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="320"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-code-branch"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">Custom Software Applications</h3><p class="text-gray-400">Tailored software solutions built exactly for your business needs.</p></div>
+      <!-- 6 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="400"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-shopping-cart"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">E-Commerce Development</h3><p class="text-gray-400">Powerful online stores that sell 24/7 and scale with your growth.</p></div>
+      <!-- 7 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="480"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-robot"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">Workflow Automation</h3><p class="text-gray-400">Save time & money — automate repetitive tasks intelligently.</p></div>
+      <!-- 8 --> <div class="card p-9 sm:p-10 rounded-3xl transition-all duration-400 card-hover" data-aos="fade-up" data-aos-delay="560"><div class="w-16 h-16 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-2xl flex items-center justify-center mb-7 text-white text-3xl"><i class="fas fa-cloud"></i></div><h3 class="text-2xl font-bold mb-4 accent-text">Cloud Computing Solutions</h3><p class="text-gray-400">Secure, scalable cloud infrastructure & migration services.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM SECTION - NOW BACK -->
+<section id="team" class="py-24 bg-gradient-to-b from-[var(--dark)] to-[var(--darker)]">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6">
+    <h2 class="text-5xl sm:text-6xl font-bold gradient-text text-center mb-20" data-aos="fade-up">Our Dream Team</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="text-center" data-aos="zoom-in">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">EI</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Ezra Iorkyaa</h3>
+        <p class="text-[var(--primary)] font-medium">Founder & Team Leader</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">SA</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Solomon Abbah</h3>
+        <p class="text-[var(--primary)] font-medium">Lead Developer</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="200">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">T</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Terdoo</h3>
+        <p class="text-[var(--primary)] font-medium">Frontend Dev / UI Designer</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="300">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">IH</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Isa Hosea</h3>
+        <p class="text-[var(--primary)] font-medium">Frontend Dev / UI Designer</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="400">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">D</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">David</h3>
+        <p class="text-[var(--primary)] font-medium">Backend Dev / Data Manager</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="500">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">EI</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Ezra Iorkyaa</h3>
+        <p class="text-[var(--primary)] font-medium">Backend Dev / Data Manager</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="600">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">IE</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Iliya Elija</h3>
+        <p class="text-[var(--primary)] font-medium">Digital Marketing / Growth Lead</p>
+      </div>
+
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="700">
+        <div class="w-44 h-44 mx-auto mb-6 rounded-full overflow-hidden border-4 border-[var(--primary)] shadow-xl shadow-orange-500/20">
+          <div class="w-full h-full bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-white text-5xl font-bold">JM</div>
+        </div>
+        <h3 class="text-2xl font-bold mb-1">Jerry Mshelia</h3>
+        <p class="text-[var(--primary)] font-medium">Operations / Admin Manager</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO (5 projects) -->
+<section id="portfolio" class="py-24 bg-gradient-to-b from-[var(--dark)] to-[var(--darker)]">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6">
+    <h2 class="text-5xl sm:text-6xl font-bold gradient-text text-center mb-20" data-aos="fade-up">Our Projects</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid"></div>
+  </div>
+</section>
+
+<!-- BLOG (5 posts) -->
+<section id="blog" class="py-24">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6">
+    <h2 class="text-5xl sm:text-6xl font-bold gradient-text text-center mb-20" data-aos="fade-up">Latest Insights</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="blog-grid"></div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="detail-modal" class="fixed inset-0 bg-black/90 hidden flex items-center justify-center z-50 p-4">
+  <div class="bg-gradient-to-b from-gray-900 to-[var(--darker)] rounded-3xl max-w-5xl w-full max-h-[92vh] overflow-y-auto relative glass border border-orange-500/20">
+    <button onclick="closeModal()" class="absolute top-6 right-6 p-4 bg-gray-800/70 rounded-full hover:bg-gray-700 transition z-10">
+      <i class="fas fa-times text-2xl"></i>
+    </button>
+    <div class="p-8 md:p-12" id="modal-content"></div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-[var(--darker)] border-t border-gray-800/60 py-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6">
+    <div class="grid md:grid-cols-4 gap-10 md:gap-12">
+      <div>
+        <div class="flex items-center gap-3.5 mb-6">
+          <img src="https://i.imgur.com/YourGlowingDevelzHubLogo.png" alt="Develz Hub" class="h-11 w-auto">
+          <span class="text-2xl font-black gradient-text">Develz Hub</span>
+        </div>
+        <p class="text-gray-400">Strengthening Nigerian businesses through smart digital transformation.</p>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-bold accent-text mb-6">Quick Links</h4>
+        <ul class="space-y-3 text-gray-400">
+          <li><a href="#services" class="hover:text-[var(--primary)] transition">Services</a></li>
+          <li><a href="#portfolio" class="hover:text-[var(--primary)] transition">Portfolio</a></li>
+          <li><a href="#team" class="hover:text-[var(--primary)] transition">Team</a></li>
+          <li><a href="#blog" class="hover:text-[var(--primary)] transition">Blog</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-bold accent-text mb-6">Contact</h4>
+        <ul class="space-y-4 text-gray-400">
+          <li class="flex items-center gap-3">
+            <i class="fab fa-whatsapp text-[var(--primary)] text-xl"></i>
+            <a href="https://wa.me/2349030749246">+234 903 074 9246</a>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fas fa-envelope text-[var(--primary)]"></i>
+            <a href="mailto:develop3rshub01@gmail.com">develop3rshub01@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-bold accent-text mb-6">Newsletter</h4>
+        <p class="text-gray-400 mb-5">Get digital growth tips</p>
+        <div class="flex">
+          <input type="email" placeholder="Your email" class="flex-1 px-5 py-3 bg-gray-900 border border-gray-700 rounded-l-xl focus:outline-none focus:border-[var(--primary)]">
+          <button class="px-6 py-3 bg-[var(--primary)] hover:bg-[var(--secondary)] rounded-r-xl transition">
+            →
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center text-gray-500 pt-12 border-t border-gray-800/50 text-sm">
+      © 2026 Develz Hub. All rights reserved. | Built in Nigeria
+    </div>
+  </div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+AOS.init({ duration: 1000, once: true });
+
+// Portfolio Data (5 projects)
+const portfolioItems = [
+  { title: "Ezra Iorkyaa Portfolio", category: "Personal Brand", year: "2025", description: "Clean, modern personal portfolio showcasing professional journey and technical skills.", image: "https://ezraiorkyaa.netlify.app/preview.jpg", technologies: "React • Tailwind CSS • Vite • Netlify", link: "https://ezraiorkyaa.netlify.app" },
+  { title: "LocalMart E-commerce Platform", category: "E-commerce", year: "2025", description: "Full-featured online store solution for local Nigerian businesses with payment integration.", image: "https://images.unsplash.com/photo-1556740714-a8395b3a74dd?w=800", technologies: "Next.js • Stripe • PostgreSQL • Vercel", link: "#" },
+  { title: "BizFlow Workflow Automation", category: "Automation", year: "2025", description: "Intelligent automation system that reduced manual tasks by over 70% for a growing company.", image: "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=800", technologies: "Node.js • Make.com • MongoDB", link: "#" },
+  { title: "ClinicTrack Health System", category: "Custom Software", year: "2025", description: "Patient & clinic management application with mobile-friendly interface.", image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800", technologies: "React Native • Firebase • Tailwind", link: "#" },
+  { title: "EduSmart Learning Platform", category: "Education Tech", year: "2025", description: "Modern LMS for schools and training centers with progress tracking & payments.", image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800", technologies: "Next.js • Supabase • Stripe", link: "#" }
+];
+
+// Blog Data (5 posts)
+const blogPosts = [
+  { title: "Why 2026 Is the Make-or-Break Year for Nigerian Businesses to Go Digital", date: "January 8, 2026", readTime: "7 min read", excerpt: "The digital economy is moving faster than ever...", content: "<p>Full article content would go here...</p>" },
+  { title: "The Hidden Cost of Staying Analog in 2026", date: "December 28, 2025", readTime: "5 min read", excerpt: "Most business owners never calculate the real price...", content: "<p>Detailed cost breakdown...</p>" },
+  { title: "How to Choose the Right Tech Stack for Your Business in 2026", date: "December 15, 2025", readTime: "9 min read", excerpt: "A practical guide for small and medium businesses...", content: "<p>Comprehensive guide...</p>" },
+  { title: "From Chaos to Superpower: Real Automation Wins in 2025", date: "November 30, 2025", readTime: "6 min read", excerpt: "Case studies of Nigerian businesses that transformed...", content: "<p>Case studies here...</p>" },
+  { title: "SEO in 2026: What Actually Works in the Nigerian Market", date: "November 10, 2025", readTime: "8 min read", excerpt: "Latest strategies that deliver real traffic...", content: "<p>Updated SEO tactics...</p>" }
+];
+
+// Render Portfolio
+const portfolioGrid = document.getElementById('portfolio-grid');
+portfolioItems.forEach(item => {
+  const card = document.createElement('div');
+  card.className = 'card rounded-3xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-[1.02]';
+  card.setAttribute('data-aos', 'fade-up');
+  card.innerHTML = `
+    <div class="h-64 relative overflow-hidden">
+      <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+      <div class="absolute bottom-6 left-6 right-6">
+        <p class="text-sm text-orange-300">${item.category} • ${item.year}</p>
+        <h3 class="text-2xl font-bold mt-2">${item.title}</h3>
+      </div>
+    </div>
+  `;
+  card.onclick = () => showModal(item, false);
+  portfolioGrid.appendChild(card);
+});
+
+// Render Blog
+const blogGrid = document.getElementById('blog-grid');
+blogPosts.forEach(post => {
+  const card = document.createElement('div');
+  card.className = 'card rounded-3xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-[1.02]';
+  card.setAttribute('data-aos', 'fade-up');
+  card.innerHTML = `
+    <div class="h-64 bg-gradient-to-br from-purple-900/40 to-orange-900/40 flex items-center justify-center p-8 text-center">
+      <div>
+        <p class="text-sm text-orange-300 mb-3">${post.date} • ${post.readTime}</p>
+        <h3 class="text-2xl font-bold">${post.title}</h3>
+      </div>
+    </div>
+    <div class="p-8">
+      <p class="text-gray-300 mb-6">${post.excerpt}</p>
+      <span class="text-[var(--primary)] font-medium flex items-center gap-2">
+        Read Article <i class="fas fa-arrow-right"></i>
+      </span>
+    </div>
+  `;
+  card.onclick = () => showModal(post, true);
+  blogGrid.appendChild(card);
+});
+
+// Modal Logic
+function showModal(item, isBlog = false) {
+  const content = document.getElementById('modal-content');
+  if (isBlog) {
+    content.innerHTML = `
+      <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-6">${item.title}</h2>
+      <p class="text-gray-400 mb-10">${item.date} • ${item.readTime}</p>
+      <div class="prose prose-invert prose-lg max-w-none">${item.content}</div>
+    `;
+  } else {
+    content.innerHTML = `
+      <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-6">${item.title}</h2>
+      <p class="text-orange-300 mb-4">${item.category} • ${item.year}</p>
+      <img src="${item.image}" alt="${item.title}" class="rounded-2xl mb-10 w-full shadow-2xl">
+      <p class="text-xl text-gray-300 mb-10">${item.description}</p>
+      <div class="bg-black/30 p-8 rounded-2xl mb-10">
+        <h4 class="text-2xl font-bold mb-6">Technologies Used</h4>
+        <p class="text-gray-300">${item.technologies}</p>
+      </div>
+      ${item.link !== '#' ? `<a href="${item.link}" target="_blank" class="inline-flex items-center gap-3 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] px-10 py-5 rounded-2xl font-bold text-lg hover:brightness-110 transition">View Live Project <i class="fas fa-external-link-alt"></i></a>` : ''}
+    `;
+  }
+  document.getElementById('detail-modal').classList.remove('hidden');
+}
+
+function closeModal() {
+  document.getElementById('detail-modal').classList.add('hidden');
+}
+
+document.getElementById('detail-modal').onclick = function(e) {
+  if (e.target === this) closeModal();
+};
+</script>
+
+</body>
+</html>
